@@ -54,3 +54,37 @@ header{
 .btn.add-section {
     background-color: #6c757d;
 }
+
+.todo-section {
+    margin-top: 20px;
+}
+
+.todo-section h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+.complete {
+    color: green;
+}
+
+.incomplete {
+    color: red;
+}
+
+.label {
+    margin-left: auto;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.editorial {
+    background-color: #007bff;
+}
