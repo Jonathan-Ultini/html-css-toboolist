@@ -70,10 +70,23 @@ header{
 }
 
 .complete {
+    background-color: green;
     color: green;
 }
 
+.check-icon, .cross-icon{
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px; 
+    font-size: 14px; 
+    margin-right: 10px; 
+}
+
 .incomplete {
+    background-color: red;
     color: red;
 }
 
@@ -87,4 +100,23 @@ header{
 
 .editorial {
     background-color: #007bff;
+}
+.q1-goals {
+    background-color: #6f42c1;
+}
+
+.recruiting {
+    background-color: #28a745;
+}
+
+.mobile {
+    background-color: #fd7e14;
+}
+
+.website {
+    background-color: #e83e8c;
+}
+
+.sales {
+    background-color: #ffc107;
 }
