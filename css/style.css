@@ -10,6 +10,47 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+main, footer{
+    max-width: 1100px;
+    margin: 0 auto;
+
+}
+
 header{
     background-color: #fff;
+}
+
+.container{
+    margin-top: 20px;
+    max-width: 1000px;
+}
+
+.separator{
+    margin: 10px auto;
+    border: 1px solid #c1b5b5;
+}
+
+.container {
+    width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn.add-section {
+    background-color: #6c757d;
 }
